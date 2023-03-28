@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223, 220, 220);
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: greenyellow;
+}
+.logo1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(5, 12, 19);
+    font-family:cursive;
+    align-items: center;
+}
+.listing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listing ul li {
+    width: 180px;
+    height: 55px;
+    background-color: rgb(50, 185, 79);
+    float: left;
+    border: 1px solid rgb(85, 2, 2);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+    
+}
+.listing ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(5, 12, 19);
+}
+.listing ul li:hover {
+    background-color: chocolate;
+    transition: 1.5s;
+    
+}
+.listing ul li a :hover{
+    background-color: chocolate;
+    display: flex;
+}
+.listing ul ul {
+    display: none;
+}
+.listing ul li:hover > ul{
+    display: block;
+}
+.form1 {
+    background-color: rgb(219, 10, 52);
+    font-size: 26px;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+    padding: 28px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(13, 19, 14);
+    border-radius: 5%;
+    box-shadow:rgb(65, 58, 60) -5px -5px 8px,
+    rgb(52, 53, 54) 5px 5px 10px;
+}
+.form1 input {
+    border-radius: 8px;
+}
+footer {
+    height: 184px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(68, 73, 77);
+    color: aliceblue;
+}
+.ggp55 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:cursive;
+    margin-top: 10px;
+}
+.gga55 p {
+    width:400px;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -18px;
+}
+.fac1 i {
+    font-size: 40px;
+    padding: 4px;
+}
+.fac1 i:hover{
+    background-color: brown;
+}
+.copyright1{
+    background-color: rgb(7, 8, 8);
+}
+.goog2 ul {
+    align-items: center;
+    text-align: center;
+}
+.lll22 {
+    border: 1px solid rgb(236, 155, 5);
+}
+.goog1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.goog2 {
+    display:flex;
+    margin-top: -400px;
+    justify-content: flex-end;
+    background-color: rgb(223, 220, 220);
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    margin-right: 20px;
+    
+
+}
+
+.goog2 ul{
+    list-style: none;
+    margin-left: -80px;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    padding: 20px;
+}
+.goog1 .goog2 ul li button{
+    background-color: rgb(19, 133, 209);
+    cursor: pointer;
+}
+
+.goog2 ul li a{
+    justify-content: space-between;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+
+}
+.goog2 ul li {
+    padding: 8px;
+}
+.goog1 .googlep1{
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.goog1 .googlep1 .searchbox{
+    position: relative;
+    width: 100%;
+    margin-left: 680px;
+    padding: 10px;
+}
+.goog1 .googlep1 .searchbox .search1{
+    padding: 10px;
+    width: 47%;
+    margin-left: -133px;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+.goog1 .googlep1 .searchbox .icons{
+    width: 47%;
+    position: absolute;
+    top: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -130px;
+
+}
+
+.googlep1 .buttons1{
+    margin-top: 20px;
+}
+.googlep1 .buttons1 button{
+    margin: 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 1px solid transparent;
+    cursor: pointer;
+    color: rgb(7, 5, 5);
+}
+.googlep1 .buttons1 button:hover{
+    background-color: 1px solid rgb(29, 34, 29)
+
+}
+.googlep1 .langgoogle{
+    margin-top: 15px;
+}
+.googfooter1 .rowfoo1{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(163, 165, 167);
+    background-color: rgb(195, 197, 199);
+}
+.googfooter1 .rowfoo1 ul{
+    display: flex;
+    
+}
+.googfooter1 .rowfoo1 ul{
+    list-style: none;
+}
+.googfooter1 .rowfoo1 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(63, 66, 63);
+    margin-right: 20px;
+
+}
+.mmg42{
+    border: 1px solid rgb(236, 155, 5);
+    margin-top: 60px;
+}
+.uni88{
+    margin: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.rimon{
+    
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border-width: 7px;
+    border-color: red;
+    border-style: solid;
+    margin: 80px;
+    margin-left:150px;
+    margin-top: 60px;
+    
+}
+.rimon:hover{
+    background-color: rgb(5, 139, 156);
+    transition: 1.5s;
+
+}
+.f90 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: 2px solid darkgreen;
+
+}
